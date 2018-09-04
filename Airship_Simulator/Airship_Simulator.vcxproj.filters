@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Propulsion">
+      <UniqueIdentifier>{bab44fc2-8ba8-402d-9766-1bb7a43462ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Propulsion">
+      <UniqueIdentifier>{2d4a90f2-911f-4fab-87e3-6d1208401a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structural">
+      <UniqueIdentifier>{8e28ba89-ad2b-482f-9127-90930d1c0974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structural">
+      <UniqueIdentifier>{9c4f7f05-5eca-40de-a4c5-0c0a68ac46e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weaponry">
+      <UniqueIdentifier>{1b3a217d-2d88-4be9-8bf4-0d9459d282cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weaponry">
+      <UniqueIdentifier>{d7a701cf-ff3f-4d1e-9286-a6e13f38864f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boiler.h">
+      <Filter>Header Files\Propulsion</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Propulsion</Filter>
+    </ClInclude>
+    <ClInclude Include="Propeller.h">
+      <Filter>Header Files\Propulsion</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightControlSurface.h">
+      <Filter>Header Files\Structural</Filter>
+    </ClInclude>
+    <ClInclude Include="Balloon.h">
+      <Filter>Header Files\Structural</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files\Structural</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files\Weaponry</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>Header Files\Weaponry</Filter>
+    </ClInclude>
+    <ClInclude Include="Crewman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="integral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Airship_Simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boiler.cpp">
+      <Filter>Source Files\Propulsion</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Propulsion</Filter>
+    </ClCompile>
+    <ClCompile Include="Propeller.cpp">
+      <Filter>Source Files\Propulsion</Filter>
+    </ClCompile>
+    <ClCompile Include="Balloon.cpp">
+      <Filter>Source Files\Structural</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightControlSurface.cpp">
+      <Filter>Source Files\Structural</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files\Structural</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\Weaponry</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>Source Files\Weaponry</Filter>
+    </ClCompile>
+    <ClCompile Include="Crewman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Airship_Simulator.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
